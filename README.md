@@ -1,31 +1,23 @@
-# Titanic Dataset Analysis
+# Machine Learning Course Homework
 
-This project explores the famous Titanic dataset using Python data analysis tools.
+This project contains Jupyter notebooks demonstrating machine learning concepts for an online course.  For example, you can find linear and logistic regression implementations.
 
-## Setup
+## Requirements
 
-This project uses [pixi](https://pixi.sh/) for dependency management:
+This project uses Pixi for dependency management. Dependencies include:
+- numpy
+- pandas
+- matplotlib
+- seaborn
+- scikit-learn
+- jupyterlab
 
-```sh
-pixi install
-pixi shell
-```
+## Usage
 
-## Contents
+1. Ensure you have the required datasets in your `DATASET_PATH` environment variable
+2. Launch Jupyter Lab to run the notebooks
+3. Execute cells sequentially to reproduce the analysis
 
-- `titanic_data.ipynb` - Jupyter notebook with exploratory data analysis of the Titanic dataset
-- `pixi.toml` - Project dependencies and configuration
+## Environment Setup
 
-## Dependencies
-
-- pandas - Data manipulation and analysis
-- matplotlib - Plotting library
-- seaborn - Statistical data visualization
-- numpy - Numerical computing
-
-## Analysis
-
-The notebook includes:
-- Basic dataset exploration and statistics
-- Survival rate analysis by various factors (gender, class, age, family status)
-- Data visualizations using matplotlib and seaborn
+The project is configured for macOS ARM64 and uses conda-forge packages.
